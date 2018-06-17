@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%= require('html-loader!./partials/_head.html') %>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+<%= require('html-loader!./partials/_header.html') %>
+ <p>This is <code>index.html</code></p>
+ <%= require('html-loader!./partials/_footer.html') %>
+</body>
+</html>
